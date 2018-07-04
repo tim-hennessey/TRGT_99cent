@@ -4,7 +4,6 @@ app.Animation = (function () {
 
     var t = TweenMax;
     var tl1 = new TimelineMax();
-    var logo = document.getElementById('logo');
     var txt1 = document.getElementById('txt1');
     var img1 = document.getElementById('img1');
     var cta = document.getElementById('cta');
@@ -29,9 +28,8 @@ app.Animation = (function () {
 	}
 	// --------------------------------------------------------------------------------------
 	function start() {
-        tl1.from(img1, 2, {y: 200, ease: Cubic.easeInOut},"-=.5")
-            .from(logo, 1, {y: -83, ease: Cubic.easeInOut})
-            .from(txt1, 1, {y: -85, ease: Cubic.easeInOut},"-=1")
+        tl1.from(img1, 2, {y: 500, ease: Cubic.easeInOut},"-=.5")
+            .from(txt1, 1, {y: -145, ease: Cubic.easeInOut})
 	}
 
 	// --------------------------------------------------------------------------------------

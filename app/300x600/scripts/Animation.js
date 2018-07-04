@@ -29,9 +29,9 @@ app.Animation = (function () {
 	}
 	// --------------------------------------------------------------------------------------
 	function start() {
-        tl1.from(img1, 2, {y: 200, ease: Cubic.easeInOut},"-=.5")
-            .from(logo, 1, {y: -83, ease: Cubic.easeInOut})
-            .from(txt1, 1, {y: -85, ease: Cubic.easeInOut},"-=1")
+        tl1.from(img1, 2, {y: 500, ease: Cubic.easeInOut},"-=.5")
+            .from(logo, 1, {y: -90, ease: Cubic.easeInOut})
+            .from(txt1, 1, {y: -90, ease: Cubic.easeInOut},"-=1")
 	}
 
 	// --------------------------------------------------------------------------------------

@@ -33,13 +33,6 @@ body {
         position: absolute;
     }
 
-    #logo {
-        top: 93px;
-        left: 0;
-        transform: translate3d(0, 0, 0.1px);
-        position: absolute;
-    }
-
     #img1 {
         bottom: 0;
         left: 0;
@@ -48,8 +41,8 @@ body {
     }
 
     #cta {
-        left: 20px;
-        bottom: 20px;
+        left: 15px;
+        top: 215px;
         width: 112px;
         height: 27px;
         border-radius: 5px;

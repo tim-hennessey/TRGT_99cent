@@ -28,28 +28,28 @@ body {
 
     #txt1 {
         top: 0;
-        left: 0;
+        left: 82px;
         transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
 
     #logo {
-        top: 93px;
-        left: 0;
+        top: 0;
+        left: 15px;
         transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
 
     #img1 {
-        bottom: 0;
-        left: 0;
+        top: 0;
+        left: 332px;
         transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
 
     #cta {
-        left: 20px;
-        bottom: 20px;
+        right: 15px;
+        bottom: 31px;
         width: 112px;
         height: 27px;
         border-radius: 5px;
