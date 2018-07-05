@@ -4,9 +4,12 @@ app.Animation = (function () {
 
     var t = TweenMax;
     var tl1 = new TimelineMax();
-    var logo = document.getElementById('logo');
     var txt1 = document.getElementById('txt1');
-    var img1 = document.getElementById('img1');
+    var grn_pens = document.getElementById('grn_pens');
+    var grn_ruler = document.getElementById('grn_ruler');
+    var blu_ruler = document.getElementById('blu_ruler');
+    var blu_pens = document.getElementById('blu_pens');
+    var gry_pen = document.getElementById('gry_pen');
     var cta = document.getElementById('cta');
     var cta_txt = document.getElementById('cta_txt');
     var cta_txt_ovr = document.getElementById('cta_txt_ovr');
@@ -29,9 +32,12 @@ app.Animation = (function () {
 	}
 	// --------------------------------------------------------------------------------------
 	function start() {
-        tl1.from(img1, 2, {y: 200, ease: Cubic.easeInOut},"-=.5")
-            .from(logo, 1, {y: -83, ease: Cubic.easeInOut})
-            .from(txt1, 1, {y: -85, ease: Cubic.easeInOut},"-=1")
+        tl1.from(grn_pens, 1, {x: 300, y:-160, ease: Cubic.easeOut})
+            .from(grn_ruler, 1, {x: -250, y:150, ease: Cubic.easeOut},"-=1")
+            .from(blu_ruler, 1, {x: 300, y:-150, ease: Cubic.easeOut},"-=.75")
+            .from(blu_pens, 1, {x: 250, y:250, ease: Cubic.easeOut},"-=1")
+            .from(gry_pen, 1, {x: 300, y:-150, ease: Cubic.easeOut},"-=.75")
+            .from(txt1, 1, {y: -85, ease: Cubic.easeInOut})
 	}
 
 	// --------------------------------------------------------------------------------------

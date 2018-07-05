@@ -26,15 +26,56 @@ body {
         width: 100%;
     }
 
-    #txt1 {
+    #guide {
         top: 0;
+        left: 0;
+        transform: translate3d(0, 0, 0.1px);
+        opacity:0;
+        position: absolute;
+    }
+
+    #grn_pens {
+        top: 57px;
+        right: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #grn_ruler {
+        bottom: 0;
         left: 0;
         transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
 
-    #logo {
-        top: 93px;
+    #blu_ruler {
+        bottom: -5px;
+        right: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #blu_pens {
+        bottom: 0;
+        right: 85px;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #gry_pen {
+        bottom: -30px;
+        right: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+    #legal {
+        bottom: 15px;
+        right: 0;
+        position: absolute;
+    }
+
+    #txt1 {
+        top: 0;
         left: 0;
         transform: translate3d(0, 0, 0.1px);
         position: absolute;
@@ -48,8 +89,8 @@ body {
     }
 
     #cta {
-        left: 20px;
-        bottom: 20px;
+        left: 15px;
+        bottom: 15px;
         width: 112px;
         height: 27px;
         border-radius: 5px;
