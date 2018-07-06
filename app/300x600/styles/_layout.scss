@@ -40,10 +40,51 @@ body {
         position: absolute;
     }
 
-    #img1 {
-        bottom: 0;
+    #guide {
+        top: 0;
         left: 0;
         transform: translate3d(0, 0, 0.1px);
+        opacity:0;
+        position: absolute;
+    }
+
+    #grn_pens {
+        top: 165px;
+        right: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #grn_ruler {
+        bottom: 150px;
+        left: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #blu_ruler {
+        bottom: 100px;
+        right: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #blu_pens {
+        bottom: 0;
+        right: 98px;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+
+    #gry_pens {
+        bottom: -15px;
+        right: 0;
+        transform: translate3d(0, 0, 0.1px);
+        position: absolute;
+    }
+    #legal {
+        bottom: 15px;
+        right: 0;
         position: absolute;
     }
 

@@ -7,6 +7,7 @@ app.Animation = (function () {
     var logo = document.getElementById('logo');
     var txt1 = document.getElementById('txt1');
     var img1 = document.getElementById('img1');
+    var img2 = document.getElementById('img2');
     var cta = document.getElementById('cta');
     var cta_txt = document.getElementById('cta_txt');
     var cta_txt_ovr = document.getElementById('cta_txt_ovr');
@@ -30,6 +31,7 @@ app.Animation = (function () {
 	// --------------------------------------------------------------------------------------
 	function start() {
         tl1.from(img1, 1, {y: -100, ease: Cubic.easeInOut})
+            .from(img2, 1, {y: -100, ease: Cubic.easeInOut},"-=.75")
             .from(txt1, 1, {y: -100, ease: Cubic.easeInOut})
 	}
 

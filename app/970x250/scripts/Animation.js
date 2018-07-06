@@ -37,7 +37,7 @@ app.Animation = (function () {
             .from(blu_ruler, 1, {x: 300, y:-150, ease: Cubic.easeOut},"-=.75")
             .from(blu_pens, 1, {x: 150, y:250, ease: Cubic.easeOut},"-=1")
             .from(gry_pens, 1, {x: 300, y:-150, ease: Cubic.easeOut},"-=.75")
-            .from(txt1, 1, {y: -145, ease: Cubic.easeInOut});
+            .from(txt1, 1, {y: -100, ease: Cubic.easeInOut})
 	}
 
 	// --------------------------------------------------------------------------------------
